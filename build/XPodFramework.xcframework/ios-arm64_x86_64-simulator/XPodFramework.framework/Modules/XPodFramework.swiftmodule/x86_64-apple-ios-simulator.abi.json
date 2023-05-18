@@ -1,0 +1,53 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "XPodFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XPodNetWorkStatusManager",
+        "printedName": "XPodNetWorkStatusManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "StartListen",
+            "printedName": "StartListen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13XPodFramework0A20NetWorkStatusManagerV11StartListenyyFZ",
+            "mangledName": "$s13XPodFramework0A20NetWorkStatusManagerV11StartListenyyFZ",
+            "moduleName": "XPodFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13XPodFramework0A20NetWorkStatusManagerV",
+        "mangledName": "$s13XPodFramework0A20NetWorkStatusManagerV",
+        "moduleName": "XPodFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,11 @@
+framework module XPodFramework {
+  umbrella header "XPodFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module XPodFramework.Swift {
+  header "XPodFramework-Swift.h"
+  requires objc
+}
