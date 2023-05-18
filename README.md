@@ -19,7 +19,7 @@
 5. Check `xcworkspace` -> `Build Phases` -> `Headers` && `Compile Sources`
 
 * build.sh 
-1. ./build.sh
+1. `./build.sh`
 
 # FAQ
 
